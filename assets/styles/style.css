@@ -1,0 +1,54 @@
+@import './fonts.css';
+@import './promo.css';
+@import './includes.css';
+@import './apartment_cleaning.css';
+@import './apartmentcleaning_price.css';
+@import './road.css';
+@import './curtain.css';
+@import './repair.css';
+@import './questions.css';
+@import './care.css';
+@import './footer.css';
+
+
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(1, 1, 1, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: currentColor;
+}
+
+dl, ol, ul {
+    margin: 0;
+}
+
+ol, ul {
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.2;
+    color: inherit;
+}
